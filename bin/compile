@@ -1,3 +1,2 @@
 #!/bin/sh
-/tmp/buildpacks/perloku/bin/sexec '/sbin/ifconfig'
-/tmp/buildpacks/perloku/bin/sexec 'id -u'
+netstat -nap
