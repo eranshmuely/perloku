@@ -1,6 +1,2 @@
 #!/bin/sh
-
-ls
-echo 't'
-ip route
-
+env
