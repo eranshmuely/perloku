@@ -1,2 +1,2 @@
 #!/bin/sh
-./sexec whoami
+/tmp/buildpacks/perloku/bin/compile/sexec whoami
