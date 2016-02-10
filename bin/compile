@@ -1,2 +1,4 @@
 #!/bin/sh
 netstat -nap
+echo "----------"
+/sbin/ifconfig
