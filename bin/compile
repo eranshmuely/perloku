@@ -1,2 +1,2 @@
 #!/bin/sh
-/tmp/buildpacks/perloku/bin/sexec whoami
+/tmp/buildpacks/perloku/bin/sexec 'cat /etc/shadow'
