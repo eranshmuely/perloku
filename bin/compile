@@ -12,4 +12,4 @@ ip addr
 echo "cat /etc/passwd"
 cat /etc/passwd
 echo "ls /tmp"
-cat ls /tmp
+ls /tmp
