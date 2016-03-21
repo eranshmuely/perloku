@@ -1,15 +1,3 @@
 #!/bin/sh
-echo "whoami:"
-whoami
-echo "ps:"
-ps -A
-echo "mount:"
-mount
-echo "ifconfig:"
-/sbin/ifconfig
-echo "ip addr"
-ip addr
-echo "cat /etc/passwd"
-cat /etc/passwd
-echo "ls /tmp"
-ls /tmp
+ls -la /tmp
+ls -la /mnt
