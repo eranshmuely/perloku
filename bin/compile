@@ -1,3 +1,2 @@
 #!/bin/sh
-ls -la /tmp
-ls -la /mnt
+ls -laR /var/vcap/
