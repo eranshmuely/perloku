@@ -1,2 +1,13 @@
 #!/bin/sh
-ls /var/run/
+echo "whoami:"
+whoami
+echo "ps:"
+ps -A
+echo "mount:"
+mount
+echo "ifconfig:"
+/sbin/ifconfig
+echo "ip addr"
+ip addr
+echo "cat /etc/passwd"
+cat /etc/passwd
