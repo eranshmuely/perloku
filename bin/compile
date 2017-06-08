@@ -1,6 +1,6 @@
 #!/bin/sh
 
 echo "sending request"
-curl http://10.131.18.113:61594/
+curl http://10.131.17.178:61542/
 
 exit 0
