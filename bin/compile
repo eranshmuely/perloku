@@ -1,6 +1,8 @@
 #!/bin/sh
-
-echo `env | grep "PATH"`
-
+echo 'ps:'
+ps -auxf
+echo '--------------------------------------------------'
+echo 'env:'
+env
 
 exit 0
