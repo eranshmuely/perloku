@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "sending request"
-curl http://10.131.17.178:61542/
+echo `env | grep "PATH"`
+
 
 exit 0
