@@ -3,6 +3,6 @@ echo 'env:'
 env
 
 echo 'file:'
-cat /var/vcap/data/dea_next/staging/d20170620-7684-17fly5o/plugin_config
+cat ~/.bashrc
 
 exit 0
