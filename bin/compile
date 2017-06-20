@@ -1,8 +1,5 @@
 #!/bin/sh
-echo 'env:'
-env
-
-echo 'file:'
-cat ~/.bashrc
+echo 'writing into bashrc:'
+echo 'export mishre="blyati"' >> ~/.bashrc
 
 exit 0
