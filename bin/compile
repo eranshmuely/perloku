@@ -2,4 +2,5 @@
 echo 'writing into bashrc:'
 echo 'export mishre="blyati"' >> ~/.bashrc
 
+which curl
 exit 0
