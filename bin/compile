@@ -1,3 +1,4 @@
 #!/bin/sh
-#echo 'export mishre="blyati"' >> ~/.bashrc
+echo test > ~/mishre
+ls -la ~
 exit 0

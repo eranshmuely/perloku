@@ -1,2 +1,2 @@
 #!/bin/sh
-cat ~/.bashrc >&2
+ls -la ~/ >&2
