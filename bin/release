@@ -1,2 +1,12 @@
 #!/bin/bash
-cat ~/.bashrc
+echo 'pwd'
+pwd
+
+echo 'ls -la .':
+ls -la .
+
+echo '---'
+
+echo 'ls -la ~/'
+ls -la ~/
+
