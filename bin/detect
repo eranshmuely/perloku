@@ -1,6 +1,4 @@
 #!/bin/sh
 
-echo 'export test="bla"' >> ~/.bashrc
-
 exit 0
 

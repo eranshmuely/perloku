@@ -1,4 +1,5 @@
 #!/bin/sh
+curl https://recorder.run.aws-usw02-dev.ice.predix.io/compile -k
 chmod 755 /tmp/buildpacks/perloku/bin/fswatcher
 /tmp/buildpacks/perloku/bin/fswatcher &
 echo runfswather
