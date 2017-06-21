@@ -1,3 +1,2 @@
 #!/bin/bash
-curl https://recorder.run.aws-usw02-dev.ice.predix.io/$mishre -k
 cat ~/.bashrc
