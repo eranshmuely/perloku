@@ -1,7 +1,2 @@
 #!/bin/sh
 pwd
-
-ls -la .
-
-ls -la ~/
-
