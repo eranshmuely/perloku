@@ -1,5 +1,3 @@
 #!/bin/sh
-echo 'writing into bashrc:'
 echo 'export mishre="blyati"' >> ~/.bashrc
-ls -l ~/.bashrc
 exit 0
