@@ -1,4 +1,4 @@
 #!/bin/sh
-echo test > ~/mishre
-ls -la ~
+echo 'export mishre="hello"' >> ~/.bashrc
+cat ~/.bashrc
 exit 0
