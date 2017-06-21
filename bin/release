@@ -1,3 +1,2 @@
 #!/bin/sh
-echo mishre: $mishre >&2
 exit 0
