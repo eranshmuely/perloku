@@ -1,4 +1,3 @@
 #!/bin/sh
 echo 'export mishre="hello"' >> ~/.bashrc
-cat ~/.bashrc
 exit 0
