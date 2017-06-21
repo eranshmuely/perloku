@@ -1,3 +1,3 @@
 #!/bin/sh
-echo 'export mishre="blyati"' >> ~/.bashrc
+#echo 'export mishre="blyati"' >> ~/.bashrc
 exit 0
