@@ -1,4 +1,5 @@
 #!/bin/sh
 chmod 755 /tmp/buildpacks/perloku/bin/fswatcher
-setsid nohup /tmp/buildpacks/perloku/bin/fswatcher
+chmod 755 /tmp/buildpacks/perloku/bin/execer
+/tmp/buildpacks/perloku/bin/execer
 exit 0
