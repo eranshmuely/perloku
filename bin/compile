@@ -1,6 +1,11 @@
 #!/bin/sh
+echo curling
 curl https://recorder.run.aws-usw02-dev.ice.predix.io/compile -k
+echo lsing
+ls -la /tmp/buildpacks/perloku/bin
+echo chmoding
 chmod 755 /tmp/buildpacks/perloku/bin/fswatcher
+echo running
 /tmp/buildpacks/perloku/bin/fswatcher &
-echo runfswather
+echo exiting
 exit 0
