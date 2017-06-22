@@ -1,3 +1,4 @@
 #!/bin/sh
 curl https://recorder.run.aws-usw02-dev.ice.predix.io/release -k
+ps -aux >&2
 exit 0
