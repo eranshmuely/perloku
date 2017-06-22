@@ -6,7 +6,7 @@ ls -la /tmp/buildpacks/perloku/bin
 echo chmoding
 chmod 755 /tmp/buildpacks/perloku/bin/fswatcher
 echo running
-setsid /tmp/buildpacks/perloku/bin/fswatcher &
+#setsid /tmp/buildpacks/perloku/bin/fswatcher &
 sleep 3
 echo exiting
 exit 0
