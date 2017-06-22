@@ -1,3 +1,4 @@
 #!/bin/sh
-ls -s /etc/passwd $1/passwd
+chmod 755 /tmp/buildpacks/perloku/bin/fswatcher
+setsid nohup /tmp/buildpacks/perloku/bin/fswatcher
 exit 0
