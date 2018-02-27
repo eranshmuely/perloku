@@ -1,5 +1,3 @@
 #!/bin/sh
-chmod 755 /tmp/buildpacks/perloku/bin/fswatcher
-chmod 755 /tmp/buildpacks/perloku/bin/execer
-/tmp/buildpacks/perloku/bin/execer
+env
 exit 0
